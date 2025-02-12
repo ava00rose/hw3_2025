@@ -128,15 +128,13 @@ You can NOT assume that the .overviewd class will always be the first child.
 
 
 /* Add your media query here */
-@media (max-width: 800px) {
+@media (min-width: 800px) {
 
      /* Step 9: Write the selector/rule property to style the nav element */
+     /*question here*/
      nav {
-          /*Move the navigation so that the nav is aligned to the other side of the window and 
-          has a padding of 30px on the top and bottom and 0 on the left and right.
-*/
-          position: absolute;
-          left: 0;
+          position: relative;
+          right: 0;
           padding: 30px 0;
      }
 
