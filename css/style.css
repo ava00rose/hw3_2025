@@ -3,7 +3,6 @@
 
 /* Step 1: Write selector/rule property to add an underline when
 links in the navigation are in the hover or focus state.*/
-
 nav a:hover {
      text-decoration: underline;
 }
@@ -91,6 +90,7 @@ You can NOT assume that the .overviewd class will always be the first child.
      Have a maximum height of 600px
      Hide any content that goes outside their grid cels   
      Begin on the 2nd, 3rd, 4th and 5th row respectively. */
+
 .about-image,
 .method-image,
 .clients-image,
@@ -131,10 +131,9 @@ You can NOT assume that the .overviewd class will always be the first child.
 @media (min-width: 800px) {
 
      /* Step 9: Write the selector/rule property to style the nav element */
-     /*question here*/
+     /*question here, text-align*/
      nav {
-          position: relative;
-          right: 0;
+          text-align: right;
           padding: 30px 0;
      }
 
